@@ -80,16 +80,51 @@ public class EJERCICIO_01_03 {
                 "Av Doce de Abril", 1867);
 
         var carrera2 = new Carrera("Telecomunicaciones", "Ing Luis Diaz ", 5);
+        var asignaturaa2 = new Asignaturaa(" Teoria Electromagnetica ", " ING Marco Lopez ", "Telecomunicaciones ");
+        
+        var universidad3 = new Universidad(" Universidad del Azuay ",
+                " 24 de Mayo ", 1994);
+        var carrera3 = new Carrera("Psicologia", "Mg. Luisa Pinosa ", 4);
+        var asignaturaa3 = new Asignaturaa(" Mentes abierta ", " Lic. Carla Ceballos ", " Psicologia ");
+       
+        var universidad4 = new Universidad("Universidad Politecnica Salesiana ",
+                "Calle vieja y Turuhuayco", 1994);
+        var carrera4 = new Carrera(" Mecatronica ", "Ing Diego Soto ", 4);
+        var asignaturaa4 = new Asignaturaa(" Electronica digital ", "ING Luis Bolaños", "Electronica");
+        
+        var universidad5 = new Universidad("Universidad Politecnica Salesiana ",
+                "Calle vieja y Turuhuayco", 1994);
+        var carrera5 = new Carrera(" Odontologia ", " Maria Luisa ", 4);
+        var asignaturaa5 = new Asignaturaa(" Traumatologia", " Dr.Juanita Luis ", "Medicina");
+        
+        var universidad6 = new Universidad(" Universidad Nacional ",
+                " Av. Luis Maño ", 1994);
 
-        var asignaturaa2 = new Asignaturaa("Teoria Electromagnetica", "ING Marco Lopez", "Telecomunicaciones ");
+        var carrera6 = new Carrera(" Computacion ", " Mauricio Lopez ", 4);
 
+        var asignaturaa6 = new Asignaturaa(" Base de datos ", " ING Mauricio Piedra ", " Computacion "); 
+        
         System.out.println(universidad1.getinfoUniversidad());
         System.out.println(carrera1.getinfoCarrera());
-        System.out.println(asignatura1.getinfoAsignatura());
+        System.out.println(asignaturaa1.getinfoAsignatura());
         System.out.println(universidad2.getinfoUniversidad());
         System.out.println(carrera2.getinfoCarrera());
         System.out.println(asignaturaa2.getinfoAsignatura());
+        
+        System.out.println(universidad3.getinfoUniversidad());
+        System.out.println(carrera3.getinfoCarrera());
+        System.out.println(asignaturaa3.getinfoAsignatura());
+        System.out.println(universidad4.getinfoUniversidad());
+        System.out.println(carrera4.getinfoCarrera());
+        System.out.println(asignaturaa4.getinfoAsignatura());
+        
 
+        System.out.println(universidad5.getinfoUniversidad());
+        System.out.println(carrera5.getinfoCarrera());
+        System.out.println(asignaturaa5.getinfoAsignatura());
+        System.out.println(universidad6.getinfoUniversidad());
+        System.out.println(carrera6.getinfoCarrera());
+        System.out.println(asignaturaa6.getinfoAsignatura());
         
         var pais1 = new Pais("Ecuador",1809,24,17.888474);
         
