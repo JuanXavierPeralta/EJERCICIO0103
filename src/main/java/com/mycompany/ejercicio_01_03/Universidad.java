@@ -10,4 +10,25 @@ package com.mycompany.ejercicio_01_03;
  */
 public class Universidad {
     
-}
+    String nombreUniversidad;
+    String direccionUniversidad;
+    int fundacionUniversidad;
+    
+    
+    public Universidad(String nombreUniversidad,String direccionUniversidad,int fundacionUniversidad){
+        this.nombreUniversidad  = nombreUniversidad;
+        this.direccionUniversidad = direccionUniversidad;
+        this.fundacionUniversidad = fundacionUniversidad;
+        
+       
+    }
+    public String getinfoUniversidad(){
+        var retorno = "La universidad "+this.nombreUniversidad+ 
+                "se fundo en "+this.fundacionUniversidad+" y su direccion es"
+                        + this.direccionUniversidad;
+        return retorno;
+        
+        
+    }
+    
+}       
