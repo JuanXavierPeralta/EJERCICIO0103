@@ -25,10 +25,6 @@ public class Asignaturaa {
         var retorno= "La asignatura se llama "+ this.nombreAsignatura + "su docente es "+
                 this.nombreDocente+ " y es una asignatura que pertenece a "+ this.nombreCarrera;
         return retorno ;
-        
-        
-        
-    
-    
+         
 }}
-}
+
